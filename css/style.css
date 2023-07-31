@@ -1,0 +1,38 @@
+/* Resume or CV color */
+
+body {
+  background-color: rgb(240, 241, 241);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  word-spacing: normal;
+}
+
+/* for phone and mobile resizing */
+@media (max-width: 1028px) {
+  body {
+    position: relative;
+  }
+}
+
+/* all table border line  */
+.educational {
+  border: 1px solid;
+}
+
+/* table header title background colours */
+.rows-line .columns-line {
+  border: 1px solid;
+  border-color: black;
+  background-color: rgb(4, 148, 153);
+}
+
+/* table head titles */
+.figuretext {
+  color: #ffffff;
+  text-align: left;
+}
+
+/* table data borders outline */
+.rows-down {
+  border: 1px solid;
+}
